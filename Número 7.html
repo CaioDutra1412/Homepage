@@ -1,0 +1,97 @@
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Exercicio: 7</title>
+<link rel="stylesheet" type="text/css" href="CSS_Páginas.css" />
+</head>
+
+<body>
+<style>
+table{position:relative;left:25%;border-style: solid;border-width: 3px;text-align:center;cellspacing: 2px;width:50%}
+table th{font-size:15pt;}
+table td{width:50%;}
+</style>
+<table cellspacing="2px" width="50">
+<tr><th colspan="3" align="center" >Tabuada</th></tr>
+<tr><td>Multiplicação</td><td>Resultado</td></tr>
+<tr><td id="1"></td><td id="1_1"></td></tr>
+
+<tr><td id="2"></td><td id="2_1"></td></tr>
+
+<tr><td id="3"></td><td id="3_1"></td></tr>
+
+<tr><td id="4"></td><td id="4_1"></td></tr>
+
+<tr><td id="5"></td><td id="5_1"></td></tr>
+
+<tr><td id="6"></td><td id="6_1"></td></tr>
+
+<tr><td id="7"></td><td id="7_1"></td></tr>
+
+<tr><td id="8"></td><td id="8_1"></td></tr>
+
+<tr><td id="9"></td><td id="9_1"></td></tr>
+
+<tr><td id="10"></td><td id="10_1"></td></tr>
+
+</table>
+<script type="text/javascript">
+num_a = parseFloat(prompt("Digite um numero", " "));
+num_b = 1;
+
+for(num_b = 1; num_b <=10; num_b++){
+switch(num_b){
+case 1:{
+document.getElementById("1").innerHTML = num_a + " * " + num_b;
+document.getElementById("1_1").innerHTML = num_a*num_b;
+}
+case 2:{
+document.getElementById("2").innerHTML = num_a + " * " + num_b;
+document.getElementById("2_1").innerHTML = num_a*num_b;
+}
+case 3:{
+document.getElementById("3").innerHTML = num_a + " * " + num_b;
+document.getElementById("3_1").innerHTML = num_a*num_b;
+}
+case 4:{
+document.getElementById("4").innerHTML = num_a + " * " + num_b;
+document.getElementById("4_1").innerHTML = num_a*num_b;
+}
+case 5:{
+document.getElementById("5").innerHTML = num_a + " * " + num_b;
+document.getElementById("5_1").innerHTML = num_a*num_b;
+}
+case 6:{
+document.getElementById("6").innerHTML = num_a + " * " + num_b;
+document.getElementById("6_1").innerHTML = num_a*num_b;
+}
+case 7:{
+document.getElementById("7").innerHTML = num_a + " * " + num_b;
+document.getElementById("7_1").innerHTML = num_a*num_b;
+}
+case 8:{
+document.getElementById("8").innerHTML = num_a + " * " + num_b;
+document.getElementById("8_1").innerHTML = num_a*num_b;
+}
+case 9:{
+document.getElementById("9").innerHTML = num_a + " * " + num_b;
+document.getElementById("9_1").innerHTML = num_a*num_b;
+}
+case 10:{
+document.getElementById("10").innerHTML = num_a + " * " + num_b;
+document.getElementById("10_1").innerHTML = num_a*num_b;
+}
+}
+}
+
+</script>
+<br>
+<br>
+<br>
+<center>
+<img src = "https://reviewingpokemon.files.wordpress.com/2014/06/giphy.gif?w=300&h=220" width=400>
+</center>
+<br>
+<a href="JavaScript.html"><div class="link">Voltar!!!</div></a>
+</body>
+</html>
